@@ -8,6 +8,6 @@ def hello(array)
   end
 end
 
-
-
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+
+binding.pry
